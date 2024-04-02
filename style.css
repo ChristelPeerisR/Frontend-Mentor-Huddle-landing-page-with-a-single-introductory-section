@@ -107,7 +107,7 @@ ul {
     color: rgba(233, 128, 231, 255);
 }
 
-@media screen and (max-width:390px){
+@media screen and (max-width:680px){
 
     .container{
         margin: 50px 50px;
@@ -137,6 +137,30 @@ ul {
 
     .logo img{
         height: 50px;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .hud-flex img {
+        height: 200px;
+        width: 330px;
+    }
+
+    .hud-text h1{
+        font-size: 1.5rem;
+    }
+
+    .hud-text p {
+        font-size: .8rem;
+    }
+
+    .social-links a {
+        height: 45px;
+        width: 45px;
+    }
+
+    button {
         width: 150px;
     }
 }
